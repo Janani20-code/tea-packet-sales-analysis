@@ -48,6 +48,8 @@ tea_packet_sales_analysis/
 ├── visualizer.py            # Creates and saves charts
 ├── requirements.txt         # Python dependencies
 └── README.md                # ← you’re reading it
+```
+---
 
 ✍️ **Author**  
 ** V.Janani**  
