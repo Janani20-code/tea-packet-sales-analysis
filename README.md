@@ -13,7 +13,8 @@ This project uses **MySQL**, and **Python (Pandas & Matplotlib)** to load, clean
 - 📈 Generate charts using **Matplotlib** and save them as images
 - ✅ Designed as an end-to-end **Data Analyst portfolio project**
 - 🔐 **Password handled via a helper function** imported from an earlier project (keeps credentials out of the code)
-- ⚙️ **Fully automated pipeline** — run one script (`main.py`) for the entire workflow 
+- ⚙️ **Fully automated pipeline** — run one script (`main.py`) for the entire workflow
+- 📂 **Sample datasets (CSV format)** now included in the `data/` folder for reference and testing without a live MySQL setup
 
 ---
 
@@ -46,6 +47,15 @@ tea_packet_sales_analysis/
 ├── data_loader.py           # Loads tables into DataFrames
 ├── data_cleaner.py          # Cleans & converts datatypes
 ├── visualizer.py            # Creates and saves charts
+├── data/                    # ← Added: Contains CSV versions of MySQL tables
+│   ├── customer.csv
+│   ├── customersale.csv
+│   ├── financesummary.csv
+│   ├── product.csv
+│   ├── purchase.csv
+│   ├── shop.csv
+│   ├── shopsale.csv
+│   └── vendor.csv
 ├── requirements.txt         # Python dependencies
 └── README.md                # ← you’re reading it
 ```
