@@ -12,7 +12,7 @@ def connect_to_db():
             host='localhost',
             user='root',  # Replace with your MySQL username
             password=get_decrypted_password(),  # Replace with your MySQL password
-            database='tea_business'
+            database='tea_packet_sales_analysis'
         )
         print("Successfully connected to database")
         return conn
